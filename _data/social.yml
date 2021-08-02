@@ -1,0 +1,6 @@
+- title: Email
+  url: mailto://minomino9011@gmail.com
+  icon: fas fa-envelope
+- title: GitHub
+  url: https://github.com/minggu-dev
+  icon: fab fa-github

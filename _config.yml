@@ -1,0 +1,55 @@
+# Setup
+title: Minggu_Blog
+description: 민호의 개발 블로그
+url: https://minggu-dev.github.io
+avatar: /img/profile_pic.jpg
+paginate: 10
+permalink: pretty
+cover_image: /img/profile_bg.jpg
+
+# Gems
+plugins:
+  - jekyll-gist
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-sitemap
+
+# Optimize Jekyll
+exclude:
+  - .editorconfig
+  - .git
+  - .jekyll-cache
+  - .gitignore
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE.md
+  - README.md
+  - scripts/
+  - not-pure-poole.gemspec
+
+# Optimize Jekyl SEO Tag
+logo: /img/profile_pic.jpg
+social:
+  name: Minho Kim
+  links:
+    - https://github.com/minggu-dev
+lang: en
+
+sass:
+  sass_dir: _sass
+  style: :compressed
+
+# Options
+
+# Replace this value and uncomment to enable Google Analytics tracking
+# google_analytics: UA-000000-0
+
+# Replace this value and uncomment to enable Disqus
+# disqus: xxxxxx
+
+# Specify the author for blog posts
+author:
+  name: Minho Kim
+  url: https://github.com/minggu-dev/
+  email: minomino9011@gmail.com
