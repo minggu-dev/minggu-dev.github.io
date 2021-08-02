@@ -36,6 +36,17 @@
   @import "syntax-dark";
 }
 
+code.language-plaintext {
+  color: #FF6060;
+  background-color: #EEEEEE;
+}
+
+h4{
+  line-height: 180%;
+  font-weight:normal;
+
+}
+
 // Sass for creating the swatches
 .colors {
   display: grid;

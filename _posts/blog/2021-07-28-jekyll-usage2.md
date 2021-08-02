@@ -3,8 +3,9 @@ layout: post
 title:  "github 블로그 Jekyll 시작하기(2) - 블로그 생성"
 date:   2021-07-28 16:10:18 +0900
 categories: Jekyll blog
+tags: jekyll
 ---
-## **Introduction**
+# Introduction
 
 ![jekyll이미지](/img/github-jekyll.png)
 >
@@ -12,9 +13,9 @@ categories: Jekyll blog
 
 <br>
 <br>
-## **Jekyll 설치하기**
+# Jekyll 설치하기
 
-### 1. 루비(Ruby) 설치
+## 1. 루비(Ruby) 설치
 Jekyll은 Ruby로 작성되어있기 때문에 우선 Ruby를 설치해 주어야 한다.<br>
 (참고로 Ruby를 잘 모른다 해도 상관 없다! Ruby는 그저 Jekyll을 설치하고 Jekyll 서버를 컴퓨터에서 실행시켜주기 위한 것이기 때문에 설치하고 서버를 실행시켜주는 방법만 알면 된다.)
 
@@ -33,7 +34,7 @@ Ruby 버전을 확인하기 위해선 명령프롬포트를 켜고 다음 명령
 
 <br><br>
 
-### 2. 지킬(Jekyll) 설치
+## 2. 지킬(Jekyll) 설치
 Ruby를 설치 했으니 이제 Jekyll을 설치해 보자. 먼저 Ruby 명령어 프롬포트를 실행시켜보자
 ![루비 명령어 프롬포트](/img/ruby-install03.png)
 > 간단하게 rub까지만 쳐도 나온다.
@@ -81,7 +82,7 @@ Bundler 설치가 완료되었다면 다음의 명령어를 통해 Gemfile에 �
 <br>
 <br>
 
-## **마무리**
+# 마무리
 #### 오늘은 Jekyll을 설치하고 직접 블로그를 생성하는 과정을 다뤄보았다. 설치 과정을 보면서 Ruby를 다운받길래 새로운 언어를 공부해야하나 싶었지만 정말 기초적인 Ruby에 대해서만 알고 넘어가도 될 정도로 Ruby를 통해 할게 많이 없었고 차근차근 따라가다보니 쉽게 블로그 생성까지 마무리 할 수 있었다.
 
 #### 다음 글에선 Jekyll 포스팅 하는 방법과 Markdown 작성법에 대해 알아보겠다.

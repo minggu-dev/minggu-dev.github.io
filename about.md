@@ -3,6 +3,5 @@ layout: page
 title: About
 ---
 
-**Not Pure Poole** is a simple, beautiful, and powerful Jekyll theme for blogs. It is built on [Poole](https://github.com/poole/poole) and [Pure](https://purecss.io/).
-
-For more information about Not Pure Poole, please browse the [README](https://github.com/vszhub/not-pure-poole) file.
+#### 안녕하세요. 현재 BreezeSoft에서 개발자로 일하고 있는 김민호 라고 합니다. 백엔드 개발자로서 더욱 성장하기 위하여 공부하면서 정리도 할 겸 블로그를 운영해보기로 하여 만든 블로그입니다.
+#### 블로그 운영이 처음이고 아직 어색하긴 하지만 이후로도 계속 업데이트해 가면서 다양한 주제를 다룰 예정이고 검색을 통해 제 블로그를 들어오시게 된 분들에게도 도움이 되었으면 좋겠습니다. 😃
