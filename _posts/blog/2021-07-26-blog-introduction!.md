@@ -7,7 +7,7 @@ tags: blog
 ---
 ## **Introduction**
 
-![소개글 이미지](/img/head.jpg)
+![소개글 이미지](/img/blog/head.jpg)
 >
 #### 웹 개발자로서 나아가기 위하여 이것저것 공부를 했지만 분명 이전에 공부했던 내용인데 잘 생각이 나지 않거나 머릿속에서 잘 정리가 되지 않는 경우가 많았기에 공부한 내용을 정리하고 기록을 할 겸 블로그를 운영해 보면 좋겠다고 생각하였다.
 #### 다양한 블로그 플랫폼이 존재하였으나 개인적으로 개발자용 블로그에 어울린다고 생각하는 플랫폼들에 대하여 장단점을 비교해 보고 가장 마음에 드는 블로그 플랫폼을 이용해보려고 한다.
@@ -39,7 +39,7 @@ tags: blog
 
 
 ### **1. 벨로그(Velog)**
-![Velog](/img/velog.png)
+![Velog](/img/blog/velog.png)
 > 흔히 알려진 블로그 플랫폼은 아니지만 개발자용 블로그 플랫폼으로 많이 쓰여지고 있다.
 
 - #### **장점**
@@ -58,7 +58,7 @@ tags: blog
 
 <br>
 ### **2. 네이버 블로그**
-![naver](/img/naver.png)
+![naver](/img/blog/naver.png)
 > 한국 사람이라면 아마 많이 접해봤을 플랫폼이지 않을까
 
 - #### **장점**
@@ -75,7 +75,7 @@ tags: blog
 
       <br>
 ### **3. 티스토리**
-![tistory](/img/tistory.png)
+![tistory](/img/blogtistory.png)
 > 최근 웹서핑을 하면서 가장 많이 보게된 플랫폼인거 같다.
 
 - #### **장점**
@@ -95,7 +95,7 @@ tags: blog
 
       <br>
 ### **4. 브런치**
-![brunch](/img/brunch.png)
+![brunch](/img/blog/brunch.png)
 > 카카오톡에서 운영하고 있는 작가들의 공간 플랫폼이라고 한다.
 
 - #### **장점**
@@ -112,7 +112,7 @@ tags: blog
 
 <br>
 ### **5. 미디엄**
-![medium](/img/medium.png)
+![medium](/img/blog/medium.png)
 > 주로 해외에서 많이 쓰이는 블로그 플랫폼
 
 - #### **장점**
@@ -134,7 +134,7 @@ tags: blog
 <br>
 
 ### **6. 깃허브 블로그(Jekyll)**
-![jekyll](/img/jekyll.png)
+![jekyll](/img/blog/jekyll.png)
 > 깃허브에서 사용 가능한 jekyll
 
 - #### **장점**
@@ -155,7 +155,7 @@ tags: blog
 
 <br>
 ### **7. 노션**
-![notion](/img/notion.png)
+![notion](/img/blog/notion.png)
 
 - #### **장점**
     - **디자인이 굉장히 이쁘다.**

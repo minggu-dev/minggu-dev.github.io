@@ -7,7 +7,7 @@ tags: jekyll
 ---
 # Introduction
 
-![jekyll이미지](/img/github-jekyll.png)
+![jekyll이미지](/img/blog/github-jekyll.png)
 >
 #### github를 이용하는 개발자들이라면 github 블로그가 있다는 것쯤은 알고 있을 것로 생각한다. 나 또한 github 블로그가 있다는 것을 알고 있기는 했지만 어떻게 운영하는지에 대해서는 생각해 본 적이 없었고 Jekyll에 대해서도 이번 블로그 운영을 하기 위해 알아보면서 처음으로 알게 되었다.
 #### 이 글에선 Jekyll에 대해서 간단히 소개하는 글을 쓰고자 한다.

@@ -7,7 +7,7 @@ tags: jekyll
 ---
 # Introduction
 
-![jekyll이미지](/img/github-jekyll.png)
+![jekyll이미지](/img/blog/github-jekyll.png)
 >
 #### 지난 글에서 Jekyll에 대해 간단히 알아보았다. 이번 글에서는 Jekyll 설치하는 방법과 블로그를 만들어보기까지 해볼 것이다.
 
@@ -20,7 +20,7 @@ Jekyll은 Ruby로 작성되어있기 때문에 우선 Ruby를 설치해 주어�
 (참고로 Ruby를 잘 모른다 해도 상관 없다! Ruby는 그저 Jekyll을 설치하고 Jekyll 서버를 컴퓨터에서 실행시켜주기 위한 것이기 때문에 설치하고 서버를 실행시켜주는 방법만 알면 된다.)
 
 [루비 다운로드](https://rubyinstaller.org/downloads/archives/)
-![루비 다운로드 사이트](/img/ruby-install01.png)
+![루비 다운로드 사이트](/img/blog/ruby-install01.png)
 > 나는 Ruby+Devkit 2.5.5-1 (x64)버전을 다운로드 받았다.
 
 이 사이트로 들어가 Ruby를 다운로드 하면 된다. 지킬 공식 사이트에서 보면 **Ruby버전은 최소 2.4 이상**을 요구하고 있기 때문에 그 이상의 버전으로 설치하는 것을 추천한다.
@@ -29,14 +29,14 @@ Ruby 버전을 확인하기 위해선 명령프롬포트를 켜고 다음 명령
 
 `ruby -v`
 
-![루비 버전 확인](/img/ruby-install02.png)
+![루비 버전 확인](/img/blog/ruby-install02.png)
 > 제대로 설치된 것을 확인!
 
 <br><br>
 
 ## 2. 지킬(Jekyll) 설치
 Ruby를 설치 했으니 이제 Jekyll을 설치해 보자. 먼저 Ruby 명령어 프롬포트를 실행시켜보자
-![루비 명령어 프롬포트](/img/ruby-install03.png)
+![루비 명령어 프롬포트](/img/blog/ruby-install03.png)
 > 간단하게 rub까지만 쳐도 나온다.
 
 Ruby 명령 프롬포트를 실행시켰다면 이제 본격적으로 Jekyll을 설치해 보자.
@@ -72,7 +72,7 @@ Bundler 설치가 완료되었다면 다음의 명령어를 통해 Gemfile에 �
 그리고 http://127.0.0.1:4000 으로 접속을 하면..
 
 
-![지킬 초기 블로그](/img/jekyll01.png)
+![지킬 초기 블로그](/img/blog/jekyll01.png)
 > 초기 블로그 홈 화면
 
 이로써 Jekyll 초기 블로그 생성을 마치게 되었다.

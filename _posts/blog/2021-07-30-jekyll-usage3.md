@@ -7,13 +7,13 @@ tags: jekyll jekyll-post
 ---
 # Introduction
 
-![jekyll이미지](/img/github-jekyll.png)
+![jekyll이미지](/img/blog/github-jekyll.png)
 >
 #### 지난 글에서 Jekyll블로그를 생성하기를 해보았다. 이번 글에서는 Jekyll의 디렉터리 구조에 대해 알아보고 생성한 블로그를 github에 올려 무료로 호스팅을 지원받는 방법과 직접 글 하나를 작성하여 올리는 과정을 다뤄보겠다.
 
 <br><br>
 # Jekyll 디렉터리 구조
-![지킬 디렉토리 구조](/img/jekyll-directory.png)
+![지킬 디렉토리 구조](/img/blog/jekyll-directory.png)
 > 공식 홈페이지에 소개된 디렉터리 구조
 
 자신의 블로그를 생성하고 생성된 블로그 폴더 안에 보면 위의 모든 파일이 있지 않고 _config.yml, _posts만 존재하는 것을 볼 수 있다. 이후에 블로그를 관리해 주기 위해선 위의 구조대로 폴더를 추가하여 관리를 해줘야 하는데 각각의 폴더가 어떠한 역할을 하는지에 대해 간단히 알아보자.
@@ -39,10 +39,10 @@ github를 사용해본 사람들이라면 익숙할 수 있지만 다시한번 �
 **이때 새로 생성하는 repository의 이름은 자신의 github닉네임.github.io로 해주어야 무료로 호스팅지원을 받을 수 있게된다.**<br>
 혹시 다른 이름으로 생성했더라도 이후 Settings에서 간단히 바꿀 수 있으니 걱정하지 말자
 
-![repository 생성](/img/blog01.png)
+![repository 생성](/img/blog/blog01.png)
 > 저장소 생성
 
-![저장소 이름 변경](/img/blog02.png)
+![저장소 이름 변경](/img/blog/blog02.png)
 > Setting에서 rename으로 쉽게 바꿔줄 수 있다.
 
 repository를 생성했다면 이제 로컬저장소에 있는 블로그를 repository로 올려보자. 생성한 블로그 폴더로 들어가 git bash를 실행시키고 해당 폴더를 Git 로컬 저장소로 설정해 준다.
@@ -63,7 +63,7 @@ git push origin master
 
 여기까지 했으면 이제 자신의 블로그가 생성이 된 것이다. 자신의 github닉네임.github.io로 들어가 확인을 해보자
 
-![블로그 페이지](/img/blog03.png)
+![블로그 페이지](/img/blog/blog03.png)
 > 생성된 초기 블로그 화면
 
 
@@ -83,7 +83,7 @@ Jekyll은 [Jekyll소개](/jekyll/update/2021/07/27/jekyll-usage1.html)에서 보
 글을 작성할 때 꼭 지켜야할 두 가지 주의사항이 존재한다.
 - **파일이름을 작성할 때 `YYYY-MM-DD-파일이름.md` 형식으로 저장해야한다.**(YYYY는 년, MM은 월, DD는 일을 뜻한다. 파일이름은 한글을 사용할 수 없다.)
 - **글을 작성할 때 가장 위에 작성하는 글의 정보를 기입해야한다.**
-![포스트 정보](/img/post01.png)
+![포스트 정보](/img/blog/post01.png)
 > 위와같은 형식을 취하고 있다.<br>
 **layout**은 포스팅 글을 작성하면 post로 지정해 두면 된다.<br>
 **title**은 글의 제목이다. 원하는 글의 제목을 입력하면 된다.(한글 입력 가능)<br>
@@ -93,7 +93,7 @@ Jekyll은 [Jekyll소개](/jekyll/update/2021/07/27/jekyll-usage1.html)에서 보
 
 
 위의 주의사항을 지킨 후 파일을 저장하고 localhost:4000주소로 들어가 확인을 해보자.
-![생성된 글](/img/blog04.png)
+![생성된 글](/img/blog/blog04.png)
 > 다음과 같이 글이 생성된 것을 볼 수 있다.
 
 글 작성을 완료했다면 github에 올려주어 블로그 포스팅을 마무리한다.
