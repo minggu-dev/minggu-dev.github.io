@@ -34,7 +34,10 @@ tags: Design-Patten software Creational-Pattern
 
 # 클래스 다이어그램
 ![Class Diagram](/img/design/creational/singleton-diagram.png)
-SingleObject클래스에서 자기 자신을 하나 가지고 있고 getInstance를 통해 자신이 갖고있는 객체를 return하여 어느 곳에서든지 사용할 수 있도록 해준다. 예시를 통해 좀 더 자세히 알아보도록 하자.
+
+**SingleObject** : 싱글톤 패턴을 적용할 클래스이다. 이곳에서 유일한 하나의 객체를 생성하고 여러곳에서 사용할 수 있도록 해준다.<br>
+**SingletonPatternDemo** : 메인 클래스
+
 <br><br>
 
 # 코드 예시
