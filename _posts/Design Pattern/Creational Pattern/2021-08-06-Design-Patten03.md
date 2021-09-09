@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "[Design Pattern] 디자인 패턴(3) - 생성 패턴 (팩토리 메서드)"
-date:   2021-08-06 10:00:18 +0900
+date:   2099-08-06 13:00:18 +0900
 categories: Design-Patten
 tags: Design-Patten software Creational-Pattern
 ---
@@ -9,60 +9,76 @@ tags: Design-Patten software Creational-Pattern
 
 ![패턴](/img/design/creational/Creational.jpg)
 >
-#### 객체의 생성과 관련된 생성 패턴 중 팩토리 메서드 패턴에 대하여 알아보자.
+#### 객체의 생성과 관련된 생성 패턴 중 두 번째로 팩토리 메서드에 대하여 알아볼 차례이다. 처음 들었을 때 팩토리라는 용어를 보고 공장을 떠올리게 되었는데 어떠한 연관관계가 있을지 알아보자.
 
 <br>
 <br>
 # 팩토리 메서드 패턴이란?
-객체를 전역변수로 사용하지 않고 유일한 하나의 객체를 생성하여 객체가 필요한 곳이면 어느 곳에서든지 사용할 수 있도록 만드는 패턴이다.
+ 팩토리(factory)라는 '공장'을 뜻하는 용어에서 보듯이 무언가를 생성해준다는 느낌이 든다. 이 용어에 걸맞게 팩토리 메서드는 객체의 생성에 대한 정의를 팩토리에 정의하여 객체 생성을 코드와 분리하여 준다. 어떤 객체를 생성할지에 대한 것은 서브클래스가 결정하도록 한다.
 
 <br>
 <br>
 # 사용하기 좋은 때
-공통된 객체를 여러곳에서 생성하여 사용해야할 때 싱글톤 패턴으로 하나만 생성하여 사용해준다.
-
+상황에 따라 올바른 객체를 사용하고자 할 때 주로 사용이 된다.<br>
+일반적으로 많이 사용이 된다. (ex. spring 프레임워크의 factory)
 
 <br>
 <br>
 # 장단점
 ### 장점
-- 객체가 필요한 여러 곳에서 생성하지 않고 사용할 수 있기 때문에 메모리 낭비를 방지할 수 있다.
+- 인터페이스를 바탕으로 유연성과 확장성이 뛰어난 코드를 만들 수 있다.
+- 객체의 자료형이 서브 클래스에 의해 결정된다.
+- SOLID원칙 중 DIP를 성립한다.
 
 ### 단점
-- 만약 싱글톤 인스턴스에게 너무 많은 일을 하게 하거나 많은 데이터를 공유한다면 SOLID원칙 중 SRP, OCP를 위반하기 때문에 꼭 필요한 경우에만 사용하도록 해야한다.
+- 새로 생성할 객체의 종류가 늘어날 때마다 클래스가 증가하게 된다.
 <br><br>
 
 # 클래스 다이어그램
-![Class Diagram](/img/design/creational/singleton-diagram.png)
-SingleObject클래스에서 자기 자신을 하나 가지고 있고 getInstance를 통해 자신이 갖고있는 객체를 return하여 어느 곳에서든지 사용할 수 있도록 해준다. 예시를 통해 좀 더 자세히 알아보도록 하자.
+![Class Diagram](/img/design/creational/factory_method-diagram.png)
+**ShapeFactory** : Shape에 대한 팩토리 메서드 패턴을 적용한 클래스이다.<br>
+**Shape** : 팩토리로 생성할 객체의 종류이다.<br>
+**Cicle, Square** : 팩토리로 생성할 구체적인 객체의 클래스이다.<br>
+**FactoryPatternDemo** : 메인 클래스
 <br><br>
 
 # 코드 예시
-- SingleObject.java
 
 ```java
 //
-public class SingleObject {
-	private static SingleObject single = new SingleObject();	//유일한 하나의 객체 생성
+public interface Shape {
+	void draw();
+}
 
-	private SingleObject() {}	//외부에서 생성 불가능
+public class Circle implements Shape{
+	@Override
+	public void draw() {
+		System.out.println("Circle draw() method.");
+	}
+}
 
-	public static SingleObject getInstance() {
-		return single;	//생성된 유일한 하나의 객체를 호출한다.
+public class Square implements Shape{
+	@Override
+	public void draw() {
+		System.out.println("Square draw() method.");
 	}
 }
 ```
-싱글톤 객체를 만들어 주는 방법은 간단하다. 싱글톤 객체로 만들고자 하는 클래스에 private static형태로 자기 자신객체를 하나 생성해 주고 생성자를 private로 설정해 외부에서 생성하지 못하도록 막는다. 그리고 getInstance()메서드를 통해 외부에서 싱글톤 객체를 사용하고 싶을 때 사용할 수 있도록 해준다.
+팩토리로 생성할 객체의 종류 Shape 인터페이스와 그걸 구현한 클래스이다. 간단하게 예시만 보여주기 위해 별 다른 기능을 넣지 않았다.
 
-외부에서 사용하는 예시를 보면 다음과 같다.
 <br><br>
 
-- SingletonPatternDemo.java
+- ShapeFactory.java
 
 ```java
-public class SingletonPatternDemo{
-	public static void main(String[] args) {
-		SingleObject so = SingleObject.getInstance();	//getter를 이용하여 객체 호출
+public class ShapeFactory {
+	public Shape getShape(String shapeType) {
+		if(shapeType.equalsIgnoreCase("CIRCLE"))
+			return new Circle();
+		else if(shapeType.equalsIgnoreCase("RECTANGLE"))
+			return new Square();
+		else
+			return null;
 	}
 }
 ```
