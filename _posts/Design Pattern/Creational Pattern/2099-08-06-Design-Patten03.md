@@ -6,6 +6,7 @@ categories: Design-Patten
 tags: Design-Patten software Creational-Pattern
 ---
 # Introduction
+<hr>
 
 ![패턴](/img/design/creational/Creational.jpg)
 >
@@ -13,7 +14,10 @@ tags: Design-Patten software Creational-Pattern
 
 <br>
 <br>
+
 # 팩토리 메서드 패턴이란?
+<hr>
+
  팩토리(factory)라는 '공장'을 뜻하는 용어에서 보듯이 무언가를 생성해준다는 느낌이 든다. 이 용어에 걸맞게 팩토리 메서드는 객체의 생성에 대한 정의를 팩토리에 정의하여 객체 생성을 코드와 분리하여 준다. 어떤 객체를 생성할지에 대한 것은 서브클래스가 결정하도록 한다.
 
 <br>
@@ -24,7 +28,10 @@ tags: Design-Patten software Creational-Pattern
 
 <br>
 <br>
+
 # 장단점
+<hr>
+
 ### 장점
 - 인터페이스를 바탕으로 유연성과 확장성이 뛰어난 코드를 만들 수 있다.
 - 객체의 자료형이 서브 클래스에 의해 결정된다.
@@ -35,6 +42,8 @@ tags: Design-Patten software Creational-Pattern
 <br><br>
 
 # 클래스 다이어그램
+<hr>
+
 ![Class Diagram](/img/design/creational/factory_method-diagram.png)
 **ShapeFactory** : Shape에 대한 팩토리 메서드 패턴을 적용한 클래스이다.<br>
 **Shape** : 팩토리로 생성할 객체의 종류이다.<br>
@@ -43,6 +52,7 @@ tags: Design-Patten software Creational-Pattern
 <br><br>
 
 # 코드 예시
+<hr>
 
 ```java
 //

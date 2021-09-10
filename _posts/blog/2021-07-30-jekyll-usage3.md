@@ -6,13 +6,16 @@ categories: Jekyll blog
 tags: jekyll jekyll-post
 ---
 # Introduction
+<hr>
 
 ![jekyll이미지](/img/blog/github-jekyll.png)
 >
 #### 지난 글에서 Jekyll블로그를 생성하기를 해보았다. 이번 글에서는 Jekyll의 디렉터리 구조에 대해 알아보고 생성한 블로그를 github에 올려 무료로 호스팅을 지원받는 방법과 직접 글 하나를 작성하여 올리는 과정을 다뤄보겠다.
 
 <br><br>
+
 # Jekyll 디렉터리 구조
+<hr>
 ![지킬 디렉토리 구조](/img/blog/jekyll-directory.png)
 > 공식 홈페이지에 소개된 디렉터리 구조
 
@@ -33,7 +36,9 @@ tags: jekyll jekyll-post
 
 <br>
 <br>
+
 # Github 저장소에 올리기
+<hr>
 github를 사용해본 사람들이라면 익숙할 수 있지만 다시한번 짚고 넘어가려고 한다.
 <br>먼저 자신의 github페이지에서 repository하나를 생성해준다.<br>
 **이때 새로 생성하는 repository의 이름은 자신의 github닉네임.github.io로 해주어야 무료로 호스팅지원을 받을 수 있게된다.**<br>
@@ -73,6 +78,7 @@ git push origin master
 <br>
 
 # 글 작성하기
+<hr>
 Jekyll은 [Jekyll소개](/jekyll/update/2021/07/27/jekyll-usage1.html)에서 보았듯이 Markdown파일을 작성하여 HTML로 변환시켜주기 때문에 먼저 Markdown파일을 작성해줘야 한다. (HTML태그도 사용 가능하다! Markdown 작성법으로 처리하기 까다로운 경우 HTML태그로 작성해줄 수 있다.)<br>
 먼저 로컬에서 작성을 하고 완료 후 github에 올려줄 것이다. (Ruby로 지킬 서버 작동시켜두고 파일을 작성 후 저장을 하면 실시간으로 내가 작성한 글을 확인할 수 있다.)
 
@@ -100,7 +106,11 @@ Jekyll은 [Jekyll소개](/jekyll/update/2021/07/27/jekyll-usage1.html)에서 보
 
 
 <br><br>
+
 # 마무리
+
+<hr>
+
 #### 오늘은 Jekyll디렉터리 구조에 대해 간단히 알아보고 무료 호스팅 지원을 받아 직접 포스팅까지 시도를 해보았다. 이제 겨우 블로그 운영이 가능한 단계까지 왔고 이후부터는 블로그 꾸며주는 방법과 포스트 작성법에 대해 좀 더 알아보고자 한다.
 
 

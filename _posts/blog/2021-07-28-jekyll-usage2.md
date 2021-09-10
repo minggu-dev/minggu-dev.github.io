@@ -6,6 +6,7 @@ categories: Jekyll blog
 tags: jekyll
 ---
 # Introduction
+<hr>
 
 ![jekyll이미지](/img/blog/github-jekyll.png)
 >
@@ -13,7 +14,9 @@ tags: jekyll
 
 <br>
 <br>
+
 # Jekyll 설치하기
+<hr>
 
 ## 1. 루비(Ruby) 설치
 Jekyll은 Ruby로 작성되어있기 때문에 우선 Ruby를 설치해 주어야 한다.<br>
@@ -83,6 +86,8 @@ Bundler 설치가 완료되었다면 다음의 명령어를 통해 Gemfile에 �
 <br>
 
 # 마무리
+<hr>
+
 #### 오늘은 Jekyll을 설치하고 직접 블로그를 생성하는 과정을 다뤄보았다. 설치 과정을 보면서 Ruby를 다운받길래 새로운 언어를 공부해야하나 싶었지만 정말 기초적인 Ruby에 대해서만 알고 넘어가도 될 정도로 Ruby를 통해 할게 많이 없었고 차근차근 따라가다보니 쉽게 블로그 생성까지 마무리 할 수 있었다.
 
 #### 다음 글에선 Jekyll 포스팅 하는 방법과 Markdown 작성법에 대해 알아보겠다.

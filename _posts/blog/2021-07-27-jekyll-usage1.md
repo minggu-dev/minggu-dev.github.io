@@ -6,6 +6,7 @@ categories: Jekyll blog
 tags: jekyll
 ---
 # Introduction
+<hr>
 
 ![jekyll이미지](/img/blog/github-jekyll.png)
 >
@@ -14,7 +15,9 @@ tags: jekyll
 
 <br>
 <br>
+
 # Jekyll이란?
+<hr>
 
 #### github의 공동 설립자인 Tom Preston-Werner가 최초로 출시한 Jekyll은 Markdown 파일을 HTML파일로 변환해 주면서 정적 사이트를 생성해준다.
 #### 여기서 **정적 사이트란** HTML, CSS, JavaScript, 이미지 등의 정적 파일만을 이용하여 페이지를 만들기 때문에 별도의 서버를 운영할 필요도 없다. 동적 사이트에 비해 가볍고 빠르기에 블로그를 운영하기에 적합하다.
@@ -22,7 +25,9 @@ tags: jekyll
 
 <br>
 <br>
+
 # Jekyll의 장단점
+<hr>
 
 - ### **장점**
   - Markdown으로 작성하기 때문에 익숙해지면 사용하기 쉬워진다.
@@ -35,7 +40,10 @@ tags: jekyll
 
 <br>
 <br>
+
 # 참고하기 좋은 사이트
+<hr>
+
 #### 지킬에 대해 자세히 알고 싶다면 다음과 같이 공식사이트를 찾아보면 된다.
 #### [지킬 공식 사이트](https://jekyllrb.com/)
 
@@ -44,7 +52,10 @@ tags: jekyll
 
 <br>
 <br>
+
 # 마무리
+<hr>
+
 #### 오늘은 Jekyll에 대해 간단히 어떤 것인지 알아보고 장단점을 작성해 보았다. 글 하나를 올리기 위해 조사를 하면서 Markdown공부도 ~~강제로~~ 병행하게 되었는데 이것은 추후에 따로 정리해서 포스팅 해보려고 한다.
 #### 다음글에서는 Jekyll설치 및 생성하는 단계까지 다루도록 하겠다.
 

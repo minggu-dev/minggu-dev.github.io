@@ -6,6 +6,7 @@ categories: Design-Patten
 tags: Design-Patten software Creational-Pattern
 ---
 # Introduction
+<hr>
 
 ![패턴](/img/design/creational/Creational.jpg)
 >
@@ -13,18 +14,26 @@ tags: Design-Patten software Creational-Pattern
 
 <br>
 <br>
+
 # 싱글톤 패턴이란?
+<hr>
 객체를 전역변수로 사용하지 않고 유일한 하나의 객체를 생성하여 객체가 필요한 곳이면 어느 곳에서든지 사용할 수 있도록 만드는 패턴이다.
 
 <br>
 <br>
+
 # 사용하기 좋은 때
+<hr>
+
 공통된 객체를 여러곳에서 생성하여 사용해야할 때 싱글톤 패턴으로 하나만 생성하여 사용해준다.
 
 
 <br>
 <br>
+
 # 장단점
+<hr>
+
 ### 장점
 - 객체가 필요한 여러 곳에서 생성하지 않고 사용할 수 있기 때문에 메모리 낭비를 방지할 수 있다.
 
@@ -33,6 +42,8 @@ tags: Design-Patten software Creational-Pattern
 <br><br>
 
 # 클래스 다이어그램
+<hr>
+
 ![Class Diagram](/img/design/creational/singleton-diagram.png)
 
 **SingleObject** : 싱글톤 패턴을 적용할 클래스이다. 이곳에서 유일한 하나의 객체를 생성하고 여러곳에서 사용할 수 있도록 해준다.<br>
@@ -41,6 +52,8 @@ tags: Design-Patten software Creational-Pattern
 <br><br>
 
 # 코드 예시
+<hr>
+
 - SingleObject.java
 
 ```java
